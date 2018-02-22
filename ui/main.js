@@ -1,22 +1,7 @@
-/*console.log('Loaded!');
-//changing the text of index.html
-var element = document.getElementById('main-text');
-element.innerHTML="this is the new web app";
-//moving the image madi
-var img = document.getElementById('madi');
-/*var marginLeft=0;
 
-function moveRight()
-{
-    marginLeft=marginLeft+1;
-    img.style.marginLeft=marginLeft+'px';
-}
-img.onclick=function(){
-var interval=setInterval(moveRight,50);
-};*/
-var button=document.getElementById('counter');
+var button = document.getElementById('counter');
 var counter=0;
-button.onclick=function(){
+button.onclick = function() {
   
   
   
